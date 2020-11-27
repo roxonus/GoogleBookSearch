@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/roxonus/GoogleBookSearch/issues"
   },
-  "homepage": "https://github.com/roxonus/GoogleBookSearch#readme"
+  "homepage": "https://github.com/roxonus/GoogleBookSearch#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.10.16",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7",
+    "react-router-dom": "^5.2.0"
+  }
 }
