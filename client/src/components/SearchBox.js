@@ -27,11 +27,11 @@ export default function SearchBox(props) {
     return (
         <div class="center">
         
-        <input 
+        <input class="btn btn-primary"
         value={props.searchTerm}
         onChange={(e)=>props.setSearchTerm(e.target.value)}
         />
-        <button
+        <button class="btn btn-info"
         onClick={handleFormSubmit}
         >Search</button>
         
