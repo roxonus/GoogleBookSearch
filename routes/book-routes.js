@@ -12,7 +12,7 @@ router.get('/api/books', function (req,res) {
     });
 });
 
-router.post('/api/books', function (req,res) {
+router.post('/api/books', function (req) {
     bookModel.create(req.body)
     .then(res => {
         res.json(res);
