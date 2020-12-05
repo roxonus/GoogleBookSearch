@@ -4,7 +4,6 @@
   "description": " A new React-based Google Books Search app",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
@@ -36,7 +35,6 @@
     "mysql": "^2.18.1",
     "nodemon": "^2.0.6",
     "path": "^0.12.7",
-    "react": "^17.0.1",
-    "react-router-dom": "^5.2.0"
+    "react": "^17.0.1"
   }
 }

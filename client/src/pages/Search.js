@@ -1,8 +1,7 @@
-
 import React, {Component} from "react";
 import $ from "jquery";
 import API from "../utils/google-books"
-import { Input, FormBtn } from "../components/search-box";
+import { Input, FormBtn } from "../components/searchbox";
 import Results from "../components/results/results";
 
 class Search extends Component{
