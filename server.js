@@ -21,7 +21,8 @@ if (process.env.NODE_ENV === "production") {
 
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/googlebooksearch";
 
-mongoose.connect(MONGODB_URI, { 
+mongoose.connect(MONGODB_URI || "mongodb://localhost/googlebooksearch",
+ { 
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
